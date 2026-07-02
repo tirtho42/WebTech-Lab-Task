@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.user-card{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px 24px 24px;
+    width: 240px;
+    text-align: center;
+    border-bottom: 4px solid #1a1a2e;
+}
+.badge{
+    position:absolute;
+    top: 12px;
+    right:12px;
+    background-color: #109804;
+    color: white;
+    font-size: 0.72em;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+.user-card img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #1a1a2e;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+.user-card h2{
+    font-size: 1.2em;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+.user-card p{
+    font-size: 0.88em;
+    color: #666;
+    line-height: 1.5em;
+}
